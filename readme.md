@@ -1,0 +1,1 @@
+First HTML/CSS Project as part of the Odin course: re-building the simple google homepage 
