@@ -1,0 +1,139 @@
+body {
+    font-size: small;
+    font-family: arial,sans-serif;
+    background:#fff;
+    color: #222;
+    height: 100%;
+    margin: 0;
+    margin-top: 0 !important;
+    padding-top: 0 !important;    
+}
+#viewport {
+    min-height: 100%;
+}
+
+/* Split the screen in half */
+.splitbar {
+    height: 50px;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 16px;
+  
+}
+.split-left {
+    left: 0;
+    padding-left: 7px;
+}
+.split-right {
+    right: 0;
+    padding-right: 23px;    
+}
+
+.navbar-left {
+    width: 100%;
+    z-index: 1;
+    font-size: 13px;
+}
+
+.navbar-right {
+    width: 100%;
+    z-index: 1;
+    font-size: 13px;
+    text-align: right;
+}
+
+.nav-item {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.left {
+    padding-left: 15px;
+}
+.right {
+    padding-right: 15px;
+}
+.button {
+    background: rgb(67, 135, 253);
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.navlink {
+    font-size: 13px;
+    opacity: 0.75;
+    color: black;
+    text-decoration: none;
+}
+.navlink:hover {
+    text-decoration: underline;
+}
+.navbutton {
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#main {
+    margin-top: 73px;
+    min-width: 980px;
+}
+
+#logo {
+    padding-top: 109px;
+    text-align: center;
+}
+#search-area {
+    padding-top: 0px;
+    text-align: center;
+}
+
+#search-bar {
+    width: 584px;
+    text-align: center;
+    height: 44px;
+    margin: 0 auto;
+    position: relative;
+}
+#search-bar-left {
+    width: 44px;
+    height: 44px;
+    background-color: rgb(167, 112, 46);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, 0);
+    display: inline-block;
+}
+#search-bar-right {
+    width: 400px;
+    height: 44px;
+    background-color: rgb(139, 112, 78);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, 0);
+    display: inline-block; 
+}
+#search-llogo {
+    padding-top: 10px;
+}
+
+
+
+#input-form {
+    width: 900px;
+    border: none;
+    color: rgba(0,0,0,.87);
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+}
